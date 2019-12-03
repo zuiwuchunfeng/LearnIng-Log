@@ -39,15 +39,11 @@
 
 1.Byte类: extends Number implements Comparable<Byte>
 
-3个类静态常量：MIN_VALUE = -128,MAX_VALUE=127,TYPE=byte
+equals方法：本质上还是对比被包装的byte的值，比较大小时推荐使用这个方法
 
-类变量：value
+2.Short类:
 
-俩个构造函数：
-
-public Byte(String s) //一个在最大值和最小值之间的数值类String： "56"
-
-public Byte(byte value)
+reverseBytes方法：进行数值转换，具体用途还未参透
 
 
 
